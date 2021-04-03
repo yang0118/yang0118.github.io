@@ -1,0 +1,136 @@
+body {
+  font-size: 18px;
+  font-family: 微軟正黑體;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  background-color: #F5F5F7;
+}
+
+.vedio-home
+/*影片的框架*/
+  {
+  width: 45%; height: auto;
+  margin: auto;
+  z-index: 1;
+}
+.vedio-home iframe
+/*首頁的影片*/
+
+{
+border: 3px solid gray;
+}
+
+.contant
+
+/*影片的介紹內容框架*/
+  {
+  border: 2px dotted black;
+  border-radius: 25%;
+  width: 45%; height: auto;
+  margin: auto;
+  padding-top: 45px;
+  padding-bottom: 25px;
+  padding-left: 30px;
+  padding-right: 25px;
+  margin-top: 45px;
+  margin-bottom: 45px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.school_photo
+/*首頁的圖片的框架*/
+{
+width: 100%;
+display: flex;
+justify-content:space-evenly;
+}
+
+.text
+/*首頁的圖片的內容*/
+{
+width: 30%;
+position: relative;
+margin-bottom: 10px;
+}
+.text img
+/*首頁的圖片*/
+{
+width: 100%;
+vertical-align: middle;
+}
+.textcontant
+{
+position: absolute;
+top:0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, .6);
+opacity: 0;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+
+.textcontant:hover
+{
+opacity: 1;
+transition: 0.8s; 
+border-radius: 25%;
+transition: 1s;
+}
+
+.text:hover .school_img
+{
+  border-radius: 25%;
+  transition: 1s;
+}
+
+.textcontant h2
+{
+font-size: 22px;
+font-weight: bold;
+color: #EEEE00;
+text-align: center;
+}
+.textcontant h2:after
+{
+content: '';
+display: block;
+width: 95%;
+height: 2px;
+margin: 10px ;
+background-color: #FFFFBB;
+transition: width .5s ;
+}
+
+.textcontant p 
+{
+padding: 0 5px 0 20px  ;
+font-size: 18px;
+color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+

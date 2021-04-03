@@ -1,0 +1,139 @@
+.all
+{
+  width: 100%;
+  position: relative;
+}
+
+
+header {
+  position: relative;
+  height: 100px;
+}
+
+.headlist
+
+/*網頁表單超連結整個的DIV*/
+  {
+  font-size: 18px;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  height: 65px;
+  width: 100%;
+  background-color: #1f2124;
+  z-index: 2;
+  
+}
+
+#CYCU
+
+/*中原大學的圖片*/
+  {
+  margin-top: 2.5px;
+  height: 60px;
+  position: relative;
+  left: 10%;
+  float: left;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.headlist table
+
+/*網頁表單清單表格*/
+  {
+  position: relative;
+  left: 20%;
+  top: 5px;
+}
+
+
+.headlist td
+
+/*設計表單超聯結的內容*/
+  {
+  height: 50px;
+  width: 150px;
+  text-align: center;
+  background-color: #1f2124
+}
+
+.headlist td:hover
+
+/*設計表單超聯結的內容*/
+  {
+  background-color: #383A3F;
+  transition: 0.5s;
+  border-radius: 30%;
+  border-bottom: 2px solid wheat;
+}
+
+
+.footer
+
+/*網業尾巴的設定*/
+  {
+  font-size: 18px;
+  width: 100%;
+  height: 65px;
+  background-color: #C4C4C4;
+  outline: 8px solid #C4C4C4;
+  margin-top: 60px;
+  position: relative;
+  bottom: 0;
+  float: left;
+  z-index: 2;
+}
+
+.footer table {
+  position: absolute;
+  left: 8%;
+  width: 80%;
+  
+}
+
+.footer td {
+  vertical-align: top;
+  width: 3%;
+  border-collapse: collapse;
+  position: relative;
+  justify-content: space-evenly;
+}
+
+#instagram {
+  position: relative;
+  top: 10px;
+  left: 20%;
+  float: left;
+  border-radius: 25%;
+}
+
+.IG {
+  position: relative;
+  top: 20px;
+  left: 20%;
+  float: left;
+}
+
+#club {
+  position: relative;
+  left: 30%;
+  float: left;
+}
+
+#facebook {
+  position: relative;
+  top: 10px;
+  left: 40%;
+  float: left;
+}
+
+.FB {
+  position: relative;
+  top: 20px;
+  left: 40%;
+  float: left;
+}

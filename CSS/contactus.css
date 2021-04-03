@@ -1,0 +1,41 @@
+body {
+  font-size: 18px;
+  font-family: 微軟正黑體;
+  letter-spacing: 2px;
+  line-height: 1.5;
+  background-color: #F5F5F7;
+
+}
+
+
+.feedback
+/*回饋表單的框架*/
+{
+margin: auto;
+width: 750px;
+height: 550px;
+margin-top: 90px;
+margin-bottom: 90px;
+}
+
+input
+/*回饋表單的內部設定*/
+{
+border: 2px double #B6A6CA;
+padding: 5px;
+}
+
+form
+/*回饋表單的位子設定*/
+{
+position: relative;
+left: 12%;
+width: 580px;
+}
+.button 
+/*回饋表單的按鈕設定*/
+{
+  position: relative;
+  left: 33%;
+}
+
