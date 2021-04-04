@@ -1,3 +1,9 @@
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+}
+
 .all
 {
   width: 100%;
@@ -31,7 +37,7 @@ header {
   {
   margin-top: 2.5px;
   height: 60px;
-  position: relative;
+  position: absolute;
   left: 10%;
   float: left;
 }
@@ -45,8 +51,8 @@ a {
 
 /*網頁表單清單表格*/
   {
-  position: relative;
-  left: 20%;
+  position: absolute;
+  left: 40%;
   top: 5px;
 }
 
@@ -57,6 +63,7 @@ a {
   {
   height: 50px;
   width: 150px;
+  min-width: 100px;
   text-align: center;
   background-color: #1f2124
 }
@@ -70,6 +77,13 @@ a {
   border-radius: 30%;
   border-bottom: 2px solid wheat;
 }
+
+
+
+
+
+
+
 
 
 .footer
