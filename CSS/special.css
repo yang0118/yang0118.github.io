@@ -3,4 +3,106 @@ body {
   font-family: 微軟正黑體;
   letter-spacing: 2px;
   line-height: 1.5;
+  background-color: #F5F5F7;
+}
+
+.a1{
+  margin:0px auto;
+}
+
+/*理學院*/
+#s:hover {
+  float: left;
+  position: relative;
+  top: 50%;
+  left: 0%;
+  border-radius: 25%;
+  transition: 1s;
+}
+
+#s2 {
+  color: black;
+}
+
+/*工學院*/
+#e:hover {
+  float: left;
+  position: relative;
+  top: 50%;
+  left: 0%;
+  border-radius: 25%;
+  transition: 1s;
+}
+
+#e2 {
+  color: black;
+}
+
+/*商學院*/
+#b:hover {
+  float: left;
+  position: relative;
+  top: 50%;
+  left: 0%;
+  border-radius: 25%;
+  transition: 1s;
+}
+
+#b2 {
+  color: black;
+}
+
+/*設計學院*/
+#d:hover {
+  float: left;
+  position: relative;
+  top: 50%;
+  left: 0%;
+  border-radius: 25%;
+  transition: 1s;
+}
+
+#d2 {
+  color: black;
+}
+
+/*人文與教育學院*/
+#he:hover {
+  float: left;
+  position: relative;
+  margin-bottom: 10px;
+  border-radius: 25%;
+  transition: 1s;
+}
+
+#he2 {
+  color: black;
+}
+
+/*法學院*/
+#f:hover {
+  float: left;
+  position: relative;
+  top: 50%;
+  left: 0%;
+  border-radius: 25%;
+  transition: 1s;
+}
+
+#f2 {
+  color: black;
+}
+
+/*電資學院*/
+#ee:hover {
+  float: left;
+  position: relative;
+  top: 50%;
+  left: 0%;
+  border-radius: 25%;
+  transition: 1s;
+}
+
+#ee2 {
+  color: black;
 }
