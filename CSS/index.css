@@ -53,12 +53,17 @@ hr
 margin: auto;
 width: 60%; 
 margin-top:  600px;
-margin-bottom: 8em;
+margin-bottom: 100px;
 
 }
 
 
-
+.litletitle
+{
+display: flex;
+justify-content: center;  
+margin-bottom: 100px;
+}
 
 
 

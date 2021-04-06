@@ -8,58 +8,63 @@ body {
 .absl
 /*首頁的圖片的框架*/
 {
-width: 100%;
-display: flex;
-justify-content:space-evenly;
-margin-bottom: 30px;
-position:relative;
-left:20px;
+  width: 100%;
+  display: flex;
+  justify-content:space-evenly;
+  margin-bottom: 30px;
+
 }
 
 .text
 /*首頁的圖片的內容*/
 {
-width: 30%;
-position: relative;
-margin-bottom: 10px;
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+    font-weight: 500;
+
 }
 .absl img
 /*首頁的圖片*/
 {
-width: 90%;
-vertical-align: middle;
-height:300px;
-
+  width: 80%;
+  position: relative;
+  left:12%;
 }
 .textcontant
 {
-position: absolute;
-top:0;
-left: 0;
-right: 35px;
-bottom: 0;
-background-color: rgba(0, 0, 0, .6);
-opacity: 0;
-display: flex;
-justify-content: center;
-flex-direction: column;
+  font-weight: 900;
+  position: absolute;
+  top:0;
+  left: 12%;
+  right: 8%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .6);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
 }
+
 
 .textcontant:hover
 /*首頁的圖片特效*/
 {
-opacity: 1;
-transition: 0.8s; 
-border-radius: 25%;
-transition: 1s;
+  opacity: 1;
+  transition: 0.8s; 
+  border-radius: 25%;
+  transition: 1s;
 }
 
 .text:hover .absl_img
 /*首頁的圖片特效*/
 
 {
+  opacity: 1;
+  transition: 0.8s; 
   border-radius: 25%;
   transition: 1s;
+
 }
 
 .textcontant h2
@@ -69,65 +74,81 @@ font-weight: bold;
 color: #EEEE00;
 text-align: center;
 }
+
+.textcontant h2::after {
+  content: '';
+  display: flex;
+  width: 75%;
+  height: 2px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #FFFFBB;
+}
+
 .title1{
   text-align:center;
   font-size:50px;
-  position:relative;
-  bottom:18px;
-  
-
+  margin: 20px 0 60px 0;
+  font-weight: 900;
 
 }
-/*圖片框架*/
+
+
+/*圖片框架all*/
 .absl_img2{
   float:left;
-  width:50%;
-  height:470px;
+  width:48%;
+  height:100%;
   position:relative;
-  left:10px;
-
+  left:3%;
+  
 }
+
+
 /*文字框架*/
 .absl_text{
   float:left;
   width:48%;
   height:auto;
   position:relative;
-  left:20px;
-  line-height:35px;
+  left:4%;
+  line-height:250%;
   font-weight:900;
-  
-}
+   }
 /*文字框架2*/
 .absl_text2{
   float:left;
   width:48%;
-  height:500px;
+  height:100%;
   position:relative;
-  left:20px;
-  top:50px;
-  line-height:40px;
-  text-indent:40px;
+  left:4%;
+  line-height:250%;
+  text-indent:6%;
   font-weight:900;
 }
 
 /*文字框架3*/
 .absl_text3{
- font-size:50px;
+ font-size:40px;
   float:left;
-  width:48%;
-  height:500px;
+  width: 600px;
+  height: 550px;
   position:relative;
-  left:50px;
-  top:80px;
-  line-height:100px;
+  left:4%;
+  line-height:250%;
   font-weight:900;
-  
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
+
+
+
 /*黑色中原大學框架*/
 .mark_frame{
   width:100%;
-  height:150px;
+  padding: 60px 0 ;
   margin:auto;
 }
 /*黑色中原大學*/
@@ -139,14 +160,13 @@ hr
 {
   margin: auto;
   width: 60%; 
-  margin-top:  600px;
+  margin-top:  8em;
   margin-bottom: 8em;
-
 }
-.a {
-  list-style-type:square;
+.clean
+{
+clear: left;
 }
-
 
 
 
