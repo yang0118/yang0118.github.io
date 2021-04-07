@@ -3,4 +3,156 @@ body {
   font-family: 微軟正黑體;
   letter-spacing: 2px;
   line-height: 1.5;
+  background-color: #F5F5F7;
 }
+.absl
+/*首頁的圖片的框架*/
+{
+  width: 100%;
+  display: flex;
+  justify-content:space-evenly;
+  margin-bottom: 30px;
+
+}
+
+.text
+/*首頁的圖片的內容*/
+{
+  width: 100%;
+  position: relative;
+  margin-bottom: 10px;
+    font-weight: 500;
+
+}
+.absl img
+/*首頁的圖片*/
+{
+  width: 80%;
+  position: relative;
+  left:12%;
+}
+.textcontant
+{
+  font-weight: 900;
+  position: absolute;
+  top:0;
+  left: 12%;
+  right: 8%;
+  bottom: 0;
+  background-color: rgba(0, 0, 0, .6);
+  opacity: 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+
+.textcontant:hover
+/*首頁的圖片特效*/
+{
+  opacity: 1;
+  transition: 0.8s; 
+  border-radius: 25%;
+  transition: 1s;
+}
+
+.text:hover .absl_img
+/*首頁的圖片特效*/
+
+{
+  opacity: 1;
+  transition: 0.8s; 
+  border-radius: 25%;
+  transition: 1s;
+
+}
+
+.textcontant h2
+{
+font-size: 22px;
+font-weight: bold;
+color: #EEEE00;
+text-align: center;
+}
+
+.textcontant h2::after {
+  content: '';
+  display: flex;
+  width: 75%;
+  height: 2px;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  background-color: #FFFFBB;
+}
+
+.title1{
+  text-align:center;
+  font-size:50px;
+  margin: 20px 0 60px 0;
+  font-weight: 900;
+
+}
+
+
+/*圖片框架all*/
+.absl_img2{
+  float:left;
+  width:48%;
+  height:100%;
+  position:relative;
+  left:3%;
+  
+}
+
+
+
+   
+/*文字框架2*/
+.absl_text2{
+  float:left;
+  width:48%;
+  height:100%;
+  position:relative;
+  left:4%;
+  line-height:250%;
+  text-indent:6%;
+  font-weight:900;
+}
+
+
+
+
+
+/*黑色中原大學框架*/
+.mark_frame{
+  width:100%;
+  padding: 60px 0 ;
+  margin:auto;
+}
+/*黑色中原大學*/
+.mark{
+  margin:auto;
+  display:block;
+}
+hr
+{
+  margin: auto;
+  width: 60%; 
+  margin-top:  8em;
+  margin-bottom: 8em;
+}
+.clean
+{
+clear: left;
+}
+
+
+
+
+
+
+
+
+
+

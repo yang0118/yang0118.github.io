@@ -6,103 +6,21 @@ body {
   background-color: #F5F5F7;
 }
 
-.a1{
-  margin:0px auto;
+/*圖片*/
+.p {
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
 }
 
-/*理學院*/
-#s:hover {
-  float: left;
-  position: relative;
-  top: 50%;
-  left: 0%;
-  border-radius: 25%;
-  transition: 1s;
-}
-
-#s2 {
+/*文字*/
+.t {
+  flex: 0 0 30%;
+  margin: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   color: black;
-}
-
-/*工學院*/
-#e:hover {
-  float: left;
-  position: relative;
-  top: 50%;
-  left: 0%;
-  border-radius: 25%;
-  transition: 1s;
-}
-
-#e2 {
-  color: black;
-}
-
-/*商學院*/
-#b:hover {
-  float: left;
-  position: relative;
-  top: 50%;
-  left: 0%;
-  border-radius: 25%;
-  transition: 1s;
-}
-
-#b2 {
-  color: black;
-}
-
-/*設計學院*/
-#d:hover {
-  float: left;
-  position: relative;
-  top: 50%;
-  left: 0%;
-  border-radius: 25%;
-  transition: 1s;
-}
-
-#d2 {
-  color: black;
-}
-
-/*人文與教育學院*/
-#he:hover {
-  float: left;
-  position: relative;
-  margin-bottom: 10px;
-  border-radius: 25%;
-  transition: 1s;
-}
-
-#he2 {
-  color: black;
-}
-
-/*法學院*/
-#f:hover {
-  float: left;
-  position: relative;
-  top: 50%;
-  left: 0%;
-  border-radius: 25%;
-  transition: 1s;
-}
-
-#f2 {
-  color: black;
-}
-
-/*電資學院*/
-#ee:hover {
-  float: left;
-  position: relative;
-  top: 50%;
-  left: 0%;
-  border-radius: 25%;
-  transition: 1s;
-}
-
-#ee2 {
-  color: black;
+  font-size: 2rem;
 }
