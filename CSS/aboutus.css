@@ -21,7 +21,7 @@ body {
   width: 100%;
   position: relative;
   margin-bottom: 10px;
-    font-weight: 500;
+  font-weight: 500;
 
 }
 .absl img
@@ -29,7 +29,7 @@ body {
 {
   width: 80%;
   position: relative;
-  left:12%;
+  left:14%;
 }
 .textcontant
 {
@@ -89,37 +89,55 @@ text-align: center;
 .title1{
   text-align:center;
   font-size:50px;
-  margin: 20px 0 60px 0;
+  margin: 0 0 20px 0;
   font-weight: 900;
 
 }
+/*調照片位置用方塊*/
+.kk{
+color:#F5F5F7;
+}
 
 
-/*圖片框架all*/
+/*圖片框架left*/
 .absl_img2{
   float:left;
-  width:48%;
-  height:100%;
+  width:20%;
   position:relative;
   left:3%;
+  
+}
+/*圖片框架right*/
+.absl_img3{
+  float:left;
+  width:20%;
+  position:relative;
+  left:30%;
   
 }
 
 
 
-   
 /*文字框架2*/
 .absl_text2{
   float:left;
   width:48%;
-  height:100%;
   position:relative;
-  left:4%;
+  left:8%;
   line-height:250%;
   text-indent:6%;
   font-weight:900;
 }
-
+/*文字框架3*/
+.absl_text3{
+  float:left;
+  width:48%;
+  position:relative;
+  left:22%;
+  line-height:250%;
+  text-indent:6%;
+  font-weight:900;
+}
 
 
 
