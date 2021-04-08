@@ -106,36 +106,42 @@ text-align: center;
 }
 
 
+
 /*文字框架*/
 .absl_text{
   float:left;
-  width:48%;
-  height:auto;
+  width:45%;
+  height:100%;
   position:relative;
-  left:4%;
+  left:5%;
   line-height:250%;
+  text-indent:6.5%;
   font-weight:900;
-   }
+}
 /*文字框架2*/
 .absl_text2{
   float:left;
-  width:48%;
-  height:100%;
+  width:45%;
   position:relative;
-  left:4%;
-  line-height:250%;
-  text-indent:6%;
-  font-weight:900;
+  left:4.5%;
+  line-height:200%;
+  font-weight:900; 
 }
+
+li{
+list-style-type:decimal;
+list-style-position:inside;
+}
+
 
 /*文字框架3*/
 .absl_text3{
- font-size:40px;
+  font-size:250%;
   float:left;
-  width: 600px;
-  height: 550px;
+  width: 35%;
+  height:500px;
   position:relative;
-  left:4%;
+  left:10%;
   line-height:250%;
   font-weight:900;
   display: flex;
