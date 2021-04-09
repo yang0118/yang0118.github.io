@@ -38,7 +38,7 @@ body {
   top:0;
   left: 12%;
   right: 8%;
-  bottom: 0;
+  bottom: 3%;
   background-color: rgba(0, 0, 0, .6);
   opacity: 0;
   display: flex;
