@@ -60,8 +60,8 @@ margin-bottom: 100px;
 
 .litletitle
 {
-display: flex;
-justify-content: center;  
+text-align: center;
+margin-top: 2.5em;
 margin-bottom: 100px;
 }
 
