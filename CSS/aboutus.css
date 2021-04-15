@@ -36,9 +36,9 @@ body {
   font-weight: 900;
   position: absolute;
   top:0;
-  left: 14%;
-  right: 6%;
-  bottom: 3%;
+  left: 12%;
+  right: 8%;
+  bottom: 0;
   background-color: rgba(0, 0, 0, .6);
   opacity: 0;
   display: flex;
@@ -102,32 +102,18 @@ color:#F5F5F7;
 /*圖片框架left*/
 .absl_img2{
   float:left;
-  width:30%;
+  width:20%;
   position:relative;
   left:3%;
-  transition : 0.5s;
-  opacity :1;
- 
+  
 }
-
 /*圖片框架right*/
 .absl_img3{
   float:left;
-  width:30%;
+  width:20%;
   position:relative;
-  left:20%;
-  transition : 0.5s;
-  opacity :1;
- 
+  left:30%;
   
-}
-.absl_img2:hover {
-	opacity : 1;
-	transform : scale(1.05);
-}
-.absl_img3:hover {
-	opacity : 1;
-	transform : scale(1.05);
 }
 
 
@@ -147,7 +133,7 @@ color:#F5F5F7;
   float:left;
   width:48%;
   position:relative;
-  left:15%;
+  left:22%;
   line-height:250%;
   text-indent:6%;
   font-weight:900;
@@ -178,8 +164,6 @@ hr
 {
 clear: left;
 }
-
-
 
 
 
